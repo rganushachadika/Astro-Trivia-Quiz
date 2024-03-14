@@ -52,7 +52,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
 
-Project Link: [https://github.com/yourusername/astro-trivia-quiz](https://github.com/yourusername/astro-trivia-quiz)
+Project Link: [https://github.com/yourusername/astro-trivia-quiz](https://github.com/rganushachadika/Astro-Trivia-Quiz.git)
 
 ## Acknowledgments
 
