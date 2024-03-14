@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exploring the Mysteries of the Universe</title>
+
+    <link rel = "icon" href = "website-icon.png" type = "image/x-icon">
+    <link rel="stylesheet" href="quiz-style.css">
+
+    <style>
+
+     body{
+            background: url(image-topic-1-background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .edit-1{
+            padding: 50px;
+            }
+
+            .topbar img{
+            height:50px;
+            width:50px;
+            }
+
+
+            .topbar{
+            flex: auto;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+            padding: 10px;
+            background: url(image-topic-1-background.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            }
+
+            .topbar li{
+
+            float: left;
+            display: block;
+            color: #9a9696;
+            text-align: center;
+            padding: 20px 20px;
+            font-size: 30px;
+            font-weight: bold;
+            }
+
+
+            .topbar a {
+            font-size: 18px;
+            color: rgb(160, 174, 253);
+            font-family:'Times New Roman', Times, serif;
+            font-weight: 800;
+            cursor: pointer;
+            position: relative;
+            border: none;
+            background: none;
+            text-transform: uppercase;
+            transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+            transition-duration: 400ms;
+            transition-property: color;
+            text-decoration: none;
+            }
+
+            .topbar a:focus,
+            .topbar a:hover {
+            color: #fffafa;
+            }
+
+            .topbar a:focus:after,
+            .topbar a:hover:after {
+            width: 100%;
+            left: 0%;
+            }
+
+            .topbar a:after {
+            content: "";
+            pointer-events: none;
+            bottom: -2px;
+            left: 50%;
+            position: absolute;
+            width: 0%;
+            height: 2px;
+            background-color: #fff7f7cd;
+            transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+            transition-duration: 400ms;
+            transition-property: width, left;
+            }
+
+            @media screen and (max-height: 450px) {
+            .topbar {padding-top: 15px;}
+            .topbar a {font-size: 18px;}
+            }
+
+
+
+            .footer{
+            position: relative;
+            background: #000;
+            color: #8a8a8a;
+            font-size: 16px;
+            padding: 20px 0 20px;
+            margin-top: 40%;
+            }
+            .footer p{
+            color:#8a8a8a;
+            text-align: center;
+            }
+            a{
+            font-size:21px;
+            text-decoration: none;
+            color:white;
+            }
+
+            .footer hr{
+            border:none;
+            background: #b5b5b5;
+            height: 1px;
+            margin:20px;
+            }
+            .rights{
+            text-align:center;
+            }
+
+            @media screen  and (max-width:1400px){
+            .footer{
+                margin-top: 40%;
+            }
+            }
+    </style>
+    
+</head>
+<body>
+   
+    <div class="edit-1" id="backToTop">
+        <nav class="topbar">
+        <script src="navigation-bar.js"></script>
+        </nav>
+    </div>
+
+
+
+    <!-- The video -->
+    <video autoplay muted loop id="myVideo">
+        <source src="full%20frame%20abstract%20blue%20artificial%20intelligence%20p%202022%2008%2004%2017%2020%2002%20utc.mp4" type="video/mp4">
+    </video>
+    <button class="botton1"><strong>Start Quiz</strong></button>
+    <div class="app">
+        <div id="quiz_header">
+            <h1>AstroTrivia Quiz</h1>
+            <div id="timer">
+                <h6 id="time_text"><i>Time Left</i></h6>
+                <h6 id="time">00</h6>
+            </div>
+        </div>
+        <div class="quiz">
+            <h2 id="question">Questions</h2>
+            <div id="answer-buttons">
+                <div class="btn">Answer1</div>
+                <div class="btn">Answer2</div>
+                <div class="btn">Answer3</div>
+                <div class="btn">Answer4</div>
+            </div>
+        </div>
+        <div id="quiz_footer">
+            <div id="status">
+                <p id ="Question_No">3</p> <h3 id ="total_correct">out of 10 Questions </h3>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+    <script src="quiz-script.js"></script>
+
+    
+<div class="footer">  
+    <p class="editor"><a href="">Page Editor</a></p>               
+    <hr>
+    <p class="rights">All Rights Reserved</p>
+  </div>
+
+</body>
+</html>
