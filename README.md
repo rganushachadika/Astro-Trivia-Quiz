@@ -4,29 +4,23 @@ Welcome to the Astro-Trivia Quiz repository! This interactive quiz app is design
 
 ## Features
 
-- **Multiple Difficulty Levels:** Choose your challenge level, from beginner to expert.
 - **Wide Range of Topics:** Questions cover various aspects of astronomy, including celestial objects, space exploration history, and astrophysics.
 - **Interactive User Interface:** Enjoy a visually appealing and user-friendly interface that makes learning fun and accessible.
 - **Real-Time Feedback:** Get instant feedback on your answers, with detailed explanations for learning opportunities.
-- **Leaderboards:** Compete with friends and other users globally to top the leaderboard!
 
 ## Getting Started
 
 To get started with Astro-Trivia Quiz, follow these simple steps:
 
-### Prerequisites
-
-Ensure you have [Node.js](https://nodejs.org/en/download/) installed on your system.
-
 ### Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/astro-trivia-quiz.git
+git clone https://github.com/rganushachadika/Astro-Trivia-Quiz.git
 ```
 2. Navigate to the project directory:
 ```bash
-cd astro-trivia-quiz
+cd Astro-Trivia-Quiz
 ```
 3. Install dependencies:
 ```bash
@@ -50,9 +44,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
+Ganusha Rathnasinghe: www.linkedin.com/in/ganusharathnasinghe 
 
-Project Link: [https://github.com/yourusername/astro-trivia-quiz](https://github.com/rganushachadika/Astro-Trivia-Quiz.git)
+Project Link: (https://github.com/rganushachadika/Astro-Trivia-Quiz.git)
 
 ## Acknowledgments
 
